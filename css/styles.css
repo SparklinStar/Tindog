@@ -1,16 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Ubuntu:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&family=Ubuntu:wght@300&display=swap');
 #title
 {
    background-color: #ff4c68; 
    color: #fff;;
-   
+   margin-bottom: -210px;
    
 }
-
+.navbar-brand
+{
+    font-weight: bold;
+}
 .fonttarget
 {
-    
+    font-weight: bold;
      font-size: 3rem;
      line-height: 1.5;
 }
@@ -25,4 +27,106 @@ body
 .navbar
 {
     padding-bottom: 4.5rem;
+}
+
+.iconfeatures
+{
+    
+    color: #ff4c68;
+}
+#features
+{
+padding: 10rem 10rem; 
+background-color: #fff; 
+position: relative;
+
+
+
+
+
+}
+
+.featurecontent
+{
+    color:grey;
+}
+.padfeatures 
+{
+    padding: 5%;
+}
+
+.titleimage 
+{
+    width: 60%;
+    transform: rotate(25deg);
+    
+    
+    
+}
+.row h3
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+}
+
+#features i:hover
+{
+    color: black;
+}
+
+.carousel-inner
+{
+    padding: 10rem 10rem;
+    background-color: #ff4c68;
+    text-align: center;
+}
+h2
+{
+    font-weight: bold;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+#testimonials img
+{
+    border-radius: 50%;
+    width: 5rem;
+    
+}
+em
+{
+    color:white
+}
+#press
+{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.pressimage
+{
+    width: 10%;
+    margin: 1rem;
+}
+
+#pricing
+{
+    padding: 4rem 2rem 4rem;
+}
+
+.content h1
+{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+}
+.content h5
+{
+    color: grey;
+    text-align: center;
+}
+.content
+{
+    padding-bottom: 3rem;
 }
